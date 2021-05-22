@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Main" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background">@color/background</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- SplashScreen application theme. -->
+    <style name="Theme.SplashScreen" parent="Theme.Main">
+        <item name="android:windowBackground">@mipmap/splash_screen</item>
+    </style>
+
+    <!-- Auth application theme. -->
+    <style name="Theme.Auth" parent="Theme.Main">
+        <!-- Primary brand color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- ApuntesKotlin application theme. -->
+    <style name="Theme.ApuntesKotlin" parent="Theme.Main">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Calculadora application theme. -->
+    <style name="Theme.Calculadora" parent="Theme.Main">
+        <!-- Primary brand color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- WebView application theme. -->
+    <style name="Theme.WebView" parent="Theme.Main">
+        <!-- Primary brand color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Fuentes application theme. -->
+    <style name="Theme.Fuentes" parent="Theme.Main">
+        <!-- Primary brand color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- DatosPersistentes application theme. -->
+    <style name="Theme.DatosPersistentes" parent="Theme.Main">
+        <!-- Primary brand color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Firebase application theme. -->
+    <style name="Theme.Firebase" parent="Theme.Main">
+        <!-- Primary brand color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

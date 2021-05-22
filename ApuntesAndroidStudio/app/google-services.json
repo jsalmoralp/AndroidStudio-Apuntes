@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "985791730506",
+    "project_id": "apuntes-androidstudio-jsp",
+    "storage_bucket": "apuntes-androidstudio-jsp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985791730506:android:d95ee7547bd585c3fea7b3",
+        "android_client_info": {
+          "package_name": "es.jsalmoralp.apuntesandroidstudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985791730506-mjhpj2sejnsma5iq3a9ahpnjek3pbm5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.jsalmoralp.apuntesandroidstudio",
+            "certificate_hash": "6e8e7cbc795d75e49e39264b2f8fb32a5b87cb11"
+          }
+        },
+        {
+          "client_id": "985791730506-bvuuh2u34s57gahhcnkve2vm99m2n55t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlWM_OcvlT1GZZjWNOtl8axgc0lMgsAd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985791730506-bvuuh2u34s57gahhcnkve2vm99m2n55t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

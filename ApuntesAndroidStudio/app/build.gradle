@@ -1,0 +1,99 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    // Apply the 'google-services' plugin
+    id 'com.google.gms.google-services'
+    // Crashlytics Gradle plugin
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('E:\\Documentos\\Keys\\Proyectos\\Android\\Apuntes AndroidStudio\\key.jks')
+            storePassword 'R3k0n!t@ 1'
+            keyAlias 'key'
+            keyPassword 'R3k0n!t@ 1'
+        }
+    }
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "es.jsalmoralp.apuntesandroidstudio"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        //testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.google.android.material:material'
+    implementation 'android.arch.lifecycle:livedata:1.1.1'
+    implementation 'android.arch.lifecycle:viewmodel:1.1.1'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.2.0'
+
+    // Importación de GooglePlayAuth para la Autenticación con Google
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    // Importación de FacebookAndroidSDK para la Autenticación con Facebook
+    implementation 'com.facebook.android:facebook-android-sdk:9.1.1'
+
+    // [START] Firebase SDK
+    // Importación de BoM para la Plataforma de Firebase
+    implementation platform('com.google.firebase:firebase-bom:28.0.1')
+    // Importación de ConfigKTX para la Plataforma de Firebase
+    implementation 'com.google.firebase:firebase-config-ktx'
+    // Importación de FirestoreKTX (Base de Datos) para la Plataforma de Firebase
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    // Importación de DatabaseKTX para la Plataforma de Firebase
+    implementation 'com.google.firebase:firebase-database-ktx'
+    // Importación de StorageKTX para la Plataforma de Firebase
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    // Importación de FirebaseAuthKTX para la Plataforma de Firebase
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    // Importación de CrashlyticsKTX para la Plataforma de Firebase
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    // Importación de AnalyticsKTX para la Plataforma de Firebase
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    // Importacion de FirebaseMessaging para las "Notificaciones Push" através de la Plataforma de Firebase
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+    // [END] Firebase SDK
+
+    // Firebase UI Library
+    implementation 'com.firebaseui:firebase-ui-database:7.1.1'
+
+    // Libreria para Imágenes con Animaciónes (tipo Like Twiter)
+    implementation 'com.airbnb.android:lottie:3.7.0'
+}

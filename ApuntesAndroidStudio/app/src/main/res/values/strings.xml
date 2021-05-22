@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Principales -->
+    <string name="app_name">Apuntes AndroidStudio</string>
+    <string name="prefs_file_credentials" translatable="false">es.jsalmoralp.apuntesandroidstudio.ARCHIVO_credenciales</string>
+    <string name="facebook_app_id" translatable="false">1189934034791770</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1189934034791770</string>
+
+    <!-- Auth -->
+    <string name="auth_title">Autenticación</string>
+    <string name="auth_email">Correo Electronico</string>
+    <string name="auth_password">Contraseña</string>
+    <string name="auth_signup">Registrarse</string>
+    <string name="auth_login">Acceder</string>
+    <string name="auth_logout">Desconectar</string>
+    <!-- Falla -->
+    <string name="probocar_falla">Probocar Falla</string>
+
+    <!-- Apuntes Kotlin -->
+
+    <!-- Calculadora -->
+    <string name="imagen_fondo_descripcion">Imagen de los botones de las operaciones</string>
+    <string name="tv_pantalla">0</string>
+    <string name="btn_suma">+</string>
+    <string name="btn_resta">-</string>
+    <string name="btn_multiplicacion">X</string>
+    <string name="btn_division">/</string>
+    <string name="btn_c">C</string>
+    <string name="btn_negativo">+/-</string>
+    <string name="btn_porcentaje">%</string>
+    <string name="btn_igual">=</string>
+    <string name="btn_0">0</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+    <string name="btn_coma">,</string>
+
+    <!-- WebView -->
+    <string name="webview_buscador_hint">¿Donde quieres ir?</string>
+
+    <!-- Datos Persistentes -->
+    <string name="datosPersistentes_titulo">Datos Persistentes (SharedPreferences)</string>
+    <string name="datosPersistentes_obtener">Obtener</string>
+    <string name="datosPersistentes_guardar">Guardar</string>
+    <string name="datosPersistentes_eliminar">Eliminar</string>
+
+    <!-- Fuentes -->
+    <string name="sewer">Sewer</string>
+    <string name="grasping">Grasping</string>
+</resources>
